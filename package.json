@@ -1,0 +1,29 @@
+{
+  "name": "Angular2-with-gulp-seed",
+  "version": "0.0.1",
+  "scripts": {
+    "tslint": "tslint -c tslint.json app/**/*.ts",
+    "postinstall": "tsd install"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.17",
+    "systemjs": "0.19.26",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "0.6.12"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "gulp-tslint": "^5.0.0",
+    "gulp-typescript": "^2.13.0",
+    "lite-server": "^2.2.0",
+    "tsd": "^0.6.5",
+    "tslint": "^3.8.1",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1"
+  }
+}
